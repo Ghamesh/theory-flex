@@ -1,0 +1,231 @@
+
+/* =======// apply full body //======== */
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: Raleway ;  
+}
+html{
+    font-size: 15px;
+}
+
+/* ========// header part start //======= */
+
+header{
+    width: 100%;
+    background-image: url(../image/dd.jpg);
+    height: 60vh;
+    background-size: cover;
+
+}
+.iner{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+ 
+    justify-content: space-between;
+    align-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+nav a{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-top: 3rem;
+
+}
+.top-part{
+    text-align: center;
+    width: 50%;
+    color: #ffffff;
+}
+.top-part h1{
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+/* =========// part two start //======= */
+
+.part-two{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  
+}
+.two{
+    padding: 0rem 0.5rem;
+}
+
+.two h2{
+margin: 1rem 0rem ;
+font-weight: 300;
+color: rgb(53, 96, 177);
+font-size: 1.5rem;
+
+}
+.two p{
+    line-height: 1.5rem;
+    color: gray;
+    font-size: 1.2rem;
+}
+.more{
+    background-color: rgb(53, 96, 177);
+    width: 6rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 2rem 0rem;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* =========//  three part start  //============= */
+
+.third-part{
+    width: 100%;
+    background-color: rgb(53, 96, 177);
+    text-align: center;
+    padding: 3.5rem 0rem;
+    color: #ffffff;
+}
+.third-part h1{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.third-part h4{
+    margin: 2rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+.team{
+    border: 0.1rem solid #ffffff;
+    padding: 2rem;
+    width: 22%;
+}
+.team-img{
+    width: 100%;
+}
+.team img{
+    border-radius: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.team h2, h5{
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+/* ========// part four start //============ */
+
+.part-four{
+    padding: 3rem 0rem;
+    text-align: center;
+}
+.part-four h1{
+    font-weight: 400;
+    color: rgb(53, 96, 177);
+    margin: 2rem;
+    font-size: 2rem;
+}
+.part-four h5{
+    margin: 2rem 0rem;
+    font-size: 1.5rem;
+    
+}
+.part-four img{
+    width: 100%;
+}
+.second-img{
+    width: 47%;
+    text-align: left;
+    margin-top: 1rem;
+}
+.second-img img{
+    width: 100%;
+    
+}
+.second-img h2{
+    font-weight: 300;
+    color: rgb(53, 96, 177);
+    margin: 0.8rem 0rem;
+    font-size: 2rem;
+}
+.second-img p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+/* =========// footer part start //======= */
+
+footer{
+    
+    padding: 3rem 0rem;
+}
+footer p{
+    font-size: 1rem;
+    color: rgb(83, 77, 77);
+}
+.social .fa{
+    color: rgb(53, 96, 177);
+    margin: 0.5rem;
+    font-size: 1.2rem;
+   
+    
+}
+
+/* =========// Media query start //======= */
+@media only screen and (max-width:650px){
+    
+    .flex{
+        flex-wrap: wrap;
+    }
+   .part-two{
+       flex-wrap: wrap;
+   }
+
+   .team-img{
+      
+       flex-wrap: wrap;
+       
+       
+   }
+   .team{
+       
+       width: 60%;
+       margin: 0 auto;
+       margin-top: 1.5rem;
+       
+      
+   }
+   .last-img{
+       flex-wrap: wrap;
+   }
+   .second-img{
+       width: 100%;
+   }
+   
+   
+    }
+@media only screen and (max-width:500px){
+    .top-part h1{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        
+    }
+    .top-part p{
+        font-size: 0.8rem;
+    }
+}
